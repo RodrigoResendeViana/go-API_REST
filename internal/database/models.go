@@ -17,4 +17,5 @@ type User struct {
 	UpdatedAt time.Time
 	ClosedAt  sql.NullTime
 	Name      string
+	ApiKey    string
 }
